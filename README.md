@@ -4,17 +4,12 @@ GitHub: https://github.com/darthelwer/Attendance-Recovery-In-Aeries
 
 Created by Adam Elwer: https://github.com/darthelwer
 
----
 
-**-----------------------------------------------------------------------------------------**
 
-- ***For the love of all things holy, please read this document before using the software.*** -
-
+- ***For the love of all things holy, please read this document before using the software.*** 
 - It contains important setup information and assumptions used by the application.       -
 
-**-----------------------------------------------------------------------------------------**
 
----
 
 ## SUPPORT FUTURE MAINTENANCE AND DEVELOPMENT!
 
@@ -87,7 +82,7 @@ You will need:
   * `pyodbc` — used for talking to SQL Server.
 * Microsoft ODBC Driver 18 for SQL Server.
 
-  * This can be downloaded directly from Microsoft.
+  * This can be downloaded directly from Microsoft and will be checked for on startup.
 * The app also uses a JSON config file to store information between uses, such as:
 
   * Server name
@@ -98,7 +93,11 @@ You will need:
 
 The config file does **not** store your SQL password.
 
-If you do not download the sample config file, the application will create one for you on first run.
+I have removed the *sample.json* file as the program will now create one on start up.
+I have a few other tools in the works and will point to this same config file for those 
+programs as well. I do not curently have plans to create the ability to access multiple 
+database configurations. If thats something you need put in a feature request through the 
+app or on the github page.
 
 ---
 
